@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.container .image {
+  width: 100%;
+  height: 100%;
+  background: url(../assets/img/layered-waves-haikei.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container .image .content {
+  position: relative;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .image .content .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.container .image .content .logo span {
+  color: #FA7268;
+  font-weight: 600;
+}
+
+.container .image .content .element-baixar {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .image .content .element-baixar .entrada-url {
+  padding: 1rem 1rem;
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 200px;
+          flex: 3 1 200px;
+  width: 100%;
+  margin: .5rem;
+  background: none;
+  border: 1px solid #FA7268;
+  border-radius: 10px;
+  color: #FA7268;
+}
+
+.container .image .content .element-baixar .entrada-url::-webkit-input-placeholder {
+  color: #FA7268;
+}
+
+.container .image .content .element-baixar .entrada-url:-ms-input-placeholder {
+  color: #FA7268;
+}
+
+.container .image .content .element-baixar .entrada-url::-ms-input-placeholder {
+  color: #FA7268;
+}
+
+.container .image .content .element-baixar .entrada-url::placeholder {
+  color: #FA7268;
+}
+
+.container .image .content .element-baixar .entrada-url:focus {
+  outline: none;
+}
+
+.container .image .content .element-baixar .btn-baixar {
+  margin: .5rem;
+  padding: 1rem 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 200px;
+          flex: 1 1 200px;
+  background: #FA7268;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.container .image .content .element-baixar .btn-baixar:hover {
+  background: #e1837c;
+}
+
+.container .image .content footer {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: absolute;
+  bottom: 5px;
+}
+
+.container .image .content footer span {
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
+}
+
+.container .image .content footer span a {
+  color: white;
+}
+/*# sourceMappingURL=global.css.map */
